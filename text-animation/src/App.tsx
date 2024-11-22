@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import AvtCanvas from "./components/Canvas";
 import MovingCar from "./components/MovingCar";
@@ -10,9 +9,6 @@ function App() {
 
   return (
     <>
-      <h1 style={{ textAlign: "center", marginTop: "20px", color: "white" }}>
-        Lal Kurti Fare: 500rs
-      </h1>
       <AvtCanvas>
         <MovingCar
           position={[linePosition[0], linePosition[1] + 1.5, linePosition[2]]}
